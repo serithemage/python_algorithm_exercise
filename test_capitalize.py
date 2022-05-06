@@ -5,5 +5,6 @@ def capitalize_string(s):
         raise TypeError('Please provide a string')
     return s.capitalize()
 
+# 테스트코드
 def test_capitalize_string():
     assert capitalize_string('test') == 'Test'
